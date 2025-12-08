@@ -78,7 +78,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - **Backend Framework:** Laravel (PHP)
 - **Frontend:** Blade Templating Engine, Tailwind CSS
 - **Database:** SQLite (lightweight and fast)
-- **Real-time Notifications:** Pusher
 - **Authentication:** Laravel Auth + Role-Based Access Control
 
 ---
@@ -91,7 +90,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - 📑 Orders & Fulfillment Tracking
 - 💰 Manual Payment Recording & Payment History
 - 📈 Business Analytics & Reporting
-- 🔔 Live Notifications (Pusher)
 - ✅ Input Validation with Realtime Feedback
 - 🧼 Simple, Clean & Fast UI – User-first experience
 

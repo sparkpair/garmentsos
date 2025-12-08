@@ -70,20 +70,6 @@ class SelfBankAccountSeeder extends Seeder
             ],
             [
                 'category' => 'self',
-                'account_no' => '0125-0105709778',
-                'sub_category' => null,
-                'bank_name' => 'Meezan Bank Limited',
-                'bank_id' => null,
-                'account_title' => 'AJ Kids | MAJ',
-                'date' => '2024-01-01',
-                'remarks' => null,
-                'cheque_book_serial' => [
-                    'start' => '88126026',
-                    'end' => '88126125',
-                ],
-            ],
-            [
-                'category' => 'self',
                 'account_no' => '0125-0108511937',
                 'sub_category' => null,
                 'bank_name' => 'Meezan Bank Limited',

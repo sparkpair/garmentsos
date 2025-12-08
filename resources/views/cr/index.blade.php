@@ -104,7 +104,7 @@
                 date: item.date,
                 c_r_no: item.c_r_no,
                 voucher_no: item.voucher?.voucher_no,
-                supplier_name: item.voucher?.supplier?.supplier_name ?? 'Al Jobat',
+                supplier_name: item.voucher?.supplier?.supplier_name ?? app('company')->name,
                 visible: true,
             };
         });

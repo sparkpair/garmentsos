@@ -19,9 +19,9 @@ class SupplierPaymentController extends Controller
     {
         if(!$this->checkRole(['developer', 'owner', 'manager', 'admin', 'accountant', 'guest']))
         {
-            return redirect(route('home'))->with('error', 'You do not have permission to access this page.'); 
+            return redirect(route('home'))->with('error', 'You do not have permission to access this page.');
         };
-        
+
         $payments = SupplierPayment::with("supplier")->get();
 
         foreach ($payments as $payment) {
@@ -397,16 +397,6 @@ class SupplierPaymentController extends Controller
                 "phone_number" => "0000-0000000",
                 "date" => "2024-01-01 00:00:00",
                 "category" => "Fabric",
-            ],
-            [
-                "supplier_name" => "Al-Jobat Garments",
-                "urdu_title" => "49",
-                "person_name" => "Al-Jobat Garments",
-                "username" => "aljobat",
-                "password" => "1234",
-                "phone_number" => "0000-0000000",
-                "date" => "2024-01-01 00:00:00",
-                "category" => "Al Jobat",
             ],
             [
                 "supplier_name" => "Allah Wasaya Contractor",
@@ -2915,7 +2905,7 @@ class SupplierPaymentController extends Controller
      */
     public function store(Request $request)
     {
-        
+
     }
 
     /**

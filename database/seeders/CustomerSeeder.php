@@ -578,18 +578,6 @@ class CustomerSeeder extends Seeder
                 "address" => ""
             ],
             [
-                "category" => "others",
-                "urdu_title" => "600001",
-                "customer_name" => "Abdul Samad AJ",
-                "person_name" => "Abdul Samad AJ",
-                "date" => "2024-01-01 00:00:00",
-                "password" => "1234",
-                "city" => "Karachi",
-                "username" => "abdulsamad",
-                "phone_number" => "03242726550",
-                "address" => ""
-            ],
-            [
                 "category" => "cash",
                 "urdu_title" => "501253",
                 "customer_name" => "Abdul Waheed",
@@ -1127,18 +1115,6 @@ class CustomerSeeder extends Seeder
                 "city" => "Faisalabad",
                 "username" => "alhafeez",
                 "phone_number" => "03073772748",
-                "address" => ""
-            ],
-            [
-                "category" => "others",
-                "urdu_title" => "600014",
-                "customer_name" => "Al Jobat Bank A/C",
-                "person_name" => "Al Jobat Bank A/C",
-                "date" => "2024-01-01 00:00:00",
-                "password" => "1234",
-                "city" => "Karachi",
-                "username" => "aljobatba",
-                "phone_number" => "03333456617",
                 "address" => ""
             ],
             [

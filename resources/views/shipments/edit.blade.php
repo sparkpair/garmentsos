@@ -456,7 +456,7 @@
                         <div id="shipment-banner" class="shipment-banner w-full flex justify-between items-center mt-8 px-5">
                             <div class="left">
                                 <div class="shipment-logo">
-                                    <img src="{{ asset('images/${companyData.logo}') }}" alt="aljobat"
+                                    <img src="{{ asset('images/${companyData.logo}') }}" alt="garmentsos"
                                         class="w-[12rem]" />
                                 </div>
                             </div>

@@ -15,10 +15,10 @@ class AppServiceProvider extends ServiceProvider
     {
         app()->singleton('company', function () {
             return (object) [
-                'name' => 'Al Jobat',
-                'owner_name' => 'Zubair',
+                'name' => 'GarmentsOS PRO',
+                'owner_name' => 'SparkPair',
                 'logo' => 'company_logo.png',
-                'phone_number' => '021-36907419 | 0321-8692696',
+                'phone_number' => '0316-5825495 | 0324-2115941',
                 'date'  => '12-12-2012',
                 'city' => 'Karachi',
                 'address' => 'Plot DP-19, Sec. 12-C, Ind. Area, North Karachi',

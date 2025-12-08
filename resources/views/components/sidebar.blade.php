@@ -46,7 +46,7 @@
         <!-- Logo -->
         <a href="/"
             class="text-[var(--text-color)] p-3 w-10 h-10 flex items-center justify-center group cursor-normal relative">
-            <h1 class="font-bold text-2xl text-[var(--primary-color)] m-0">AJ</h1>
+            <h1 class="font-bold text-2xl text-[var(--primary-color)] m-0">WF</h1>
         </a>
 
         <!-- Mobile Menu Toggle Button -->

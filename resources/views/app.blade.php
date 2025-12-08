@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="theme-color" content="#2563eb">
-    <meta name="description" content="Al Jobat`s Garments Busniess Management Solution!">
+    <meta name="description" content="GarmentsOS – Garments Business Management Solution">
     <link rel="manifest" href="/manifest.json">
     <title>@yield('title', app('company')->name)</title>
     <style>
@@ -1602,15 +1602,6 @@
         });
     }
 
-    // function printPage() {
-    //     // get card_container and print
-    //     const printContent = document.querySelector('.container-parent').innerHTML;
-    //     const originalContent = document.body.innerHTML;
-    //     document.body.innerHTML = printContent;
-    //     window.print();
-    //     document.body.innerHTML = originalContent;
-    // }
-
     function printPage() {
         const preview = document.querySelector('.container-parent');
 
@@ -1672,7 +1663,7 @@
                     html += `
                         <div class="print-page flex flex-col min-h-[750px]">
                             <div class="px-4 w-full flex justify-between text-[12px] font-medium tracking-wide leading-none mb-2">
-                                <div class="capitalize">${ document.getElementById('page-name').textContent } | Al Jobat</div>
+                                <div class="capitalize">${ document.getElementById('page-name').textContent } | {{ app('company')->name }}</div>
                                 <div>Printed on: ${formatDate(new Date())}</div>
                             </div>
                             ${headerHTML}

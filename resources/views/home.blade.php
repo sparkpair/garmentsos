@@ -6,7 +6,6 @@
         <!-- Logo -->
         <div class="mb-4 p-2 shadow-sm border border-[var(--glass-border-color)]/20 rounded-xl">
             <div class="logo w-38 rounded-lg overflow-hidden">
-                {{-- <img src="{{ asset('images/logo-transparent.png') }}" alt="GarmentsOS Logo" class="w-full h-full object-cover"> --}}
                 <svg class="fill-[var(--primary-color)]" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 369.63 232.24" style="enable-background:new 0 0 369.63 232.24;" xml:space="preserve">
                 <g>
@@ -30,7 +29,7 @@
         <!-- Title & Subtitle -->
         <h1 class="text-4xl font-bold text-[var(--primary-color)] mb-2 text-center">Welcome to {{ app('company')->name }}!</h1>
         <p class="text-[var(--secondary-text)] text-center mb-4">
-            GarmentsOS | Track your progress and manage your tasks efficiently.
+            GarmentsOS PRO | Track your progress and manage your tasks efficiently.
         </p>
 
         <!-- Powered by Tag -->
@@ -38,15 +37,4 @@
             Powered by <span class="font-semibold text-[var(--primary-color)]">SparkPair</span>
         </div>
     </div>
-
-
-    {{-- @if ($notification)
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                setTimeout(() => {
-                    showNotification('{{ $notification["title"] }}', '{{ $notification["message"] }}');
-                }, 1000);
-            })
-        </script>
-    @endif --}}
 @endsection

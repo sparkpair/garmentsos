@@ -364,16 +364,6 @@ class SupplierSeeder extends Seeder
                 "category" => "Fabric",
             ],
             [
-                "supplier_name" => "Al-Jobat Garments",
-                "urdu_title" => "49",
-                "person_name" => "Al-Jobat Garments",
-                "username" => "aljobat",
-                "password" => "1234",
-                "phone_number" => "0000-0000000",
-                "date" => "2024-01-01 00:00:00",
-                "category" => "Al Jobat",
-            ],
-            [
                 "supplier_name" => "Allah Wasaya Contractor",
                 "urdu_title" => "50",
                 "person_name" => "Allah Wasaya Contractor",

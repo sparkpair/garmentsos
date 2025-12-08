@@ -1,6 +1,6 @@
 {
-    "name": "Al Jobat",
-    "short_name": "Al Jobat",
+    "name": "GarmentsOS",
+    "short_name": "GarmentsOS",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#111827",
@@ -32,4 +32,3 @@
       }
     ]
   }
-  
