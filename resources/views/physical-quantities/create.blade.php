@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Add Physical Quantities | ' . app('company')->name)
+@section('title', 'Add Physical Quantities')
 @section('content')
 @php
     $category_options = [

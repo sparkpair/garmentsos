@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Generate Slip | ' . app('company')->name)
+@section('title', 'Generate Slip')
 @section('content')
     <!-- Main Content -->
     <!-- Progress Bar -->

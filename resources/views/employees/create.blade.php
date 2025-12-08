@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Add Employee | ' . app('company')->name)
+@section('title', 'Add Employee')
 @section('content')
 @php
     $categories_options = [
@@ -98,7 +98,7 @@
                     id="salary"
                     placeholder="Enter salary"
                     type="amount"
-                    dataValidate="required|amount" 
+                    dataValidate="required|amount"
                     disabled
                     capitalized
                 />

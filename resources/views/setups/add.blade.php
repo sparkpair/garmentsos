@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Add Setups | ' . app('company')->name)
+@section('title', 'Add Setups')
 @section('content')
 <!-- Main Content -->
 

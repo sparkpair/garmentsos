@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Add Physical Quantities | ' . app('company')->name)
+@section('title', 'Add Physical Quantities')
 @section('content')
     <!-- Main Content -->
     <div class="max-w-2xl mx-auto">

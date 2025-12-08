@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Subscription Expired | ' . app('company')->name)
+@section('title', 'Subscription Expired')
 
 @section('content')
 <div class="flex items-center justify-center">

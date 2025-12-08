@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Pending Payments | ' . app('company')->name)
+@section('title', 'Pending Payments')
 @section('content')
 @php
     $companyData = app('company');

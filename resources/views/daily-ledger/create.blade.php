@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Daily Ledger Deposit | ' . app('company')->name)
+@section('title', 'Daily Ledger Deposit')
 @section('content')
 @php
     $dailyLedgerType = Auth::user()->daily_ledger_type;

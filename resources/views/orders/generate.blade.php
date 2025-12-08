@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Generate Order | ' . app('company')->name)
+@section('title', 'Generate Order')
 @section('content')
     <!-- Main Content -->
     <!-- Progress Bar -->

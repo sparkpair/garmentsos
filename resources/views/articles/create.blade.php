@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Add Article | ' . app('company')->name)
+@section('title', 'Add Article')
 @section('content')
 @php
     $categories_options = app('article')->categories;

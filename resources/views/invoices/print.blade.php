@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Generate Invoice | ' . app('company')->name)
+@section('title', 'Generate Invoice')
 @section('content')
     <div id="invoice-container" class="hidden"></div>
 

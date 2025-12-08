@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Add Suppliers | ' . app('company')->name)
+@section('title', 'Add Suppliers')
 @section('content')
     <!-- Progress Bar -->
     <div class="mb-5 max-w-3xl mx-auto">

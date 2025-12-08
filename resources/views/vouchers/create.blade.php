@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Generate Voucher | ' . app('company')->name)
+@section('title', 'Generate Voucher')
 @section('content')
 
 @php

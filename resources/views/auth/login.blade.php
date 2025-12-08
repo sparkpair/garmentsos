@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Login | ' . app('company')->name)
+@section('title', 'Login')
 @section('content')
     <div class="bg-[var(--secondary-bg-color)] p-10 rounded-xl shadow-md max-w-md w-full fade-in mx-auto">
         <h4 class="text-xl font-semibold text-center text-[var(--primary-color)]">{{ app('company')->name }}</h4>

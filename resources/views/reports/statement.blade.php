@@ -1,5 +1,5 @@
 @extends('app')
-@section('title', 'Statement | ' . app('company')->name)
+@section('title', 'Statement')
 @section('content')
 @php
     $companyData = app('company');
