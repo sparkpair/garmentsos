@@ -339,7 +339,7 @@
 
     @vite('resources/css/app.css')
 
-    <script src="https://js.pusher.com/8.4.0/pusher.min.js"></script>
+    {{-- <script src="https://js.pusher.com/8.4.0/pusher.min.js"></script> --}}
     <script src="https://unpkg.com/alpinejs" defer></script>
     <script>
         if ('serviceWorker' in navigator) {
@@ -652,7 +652,7 @@
         setInterval(updateLastActivity, 60 * 60 * 1000);
     </script>
 
-    <script>
+    {{-- <script>
         var pusher = new Pusher('c99f4e2f9df04cc306f4', {
             cluster: 'ap2',
             forceTLS: true
@@ -713,7 +713,7 @@
         pusher.connection.bind('connected', function() {
             console.log('✅ Pusher connected');
         });
-    </script>
+    </script> --}}
 </body>
 <script>
     let doHide = false;

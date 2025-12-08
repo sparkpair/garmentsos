@@ -40,7 +40,7 @@
     </div>
 
 
-    @if ($notification)
+    {{-- @if ($notification)
         <script>
             document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => {
@@ -48,5 +48,5 @@
                 }, 1000);
             })
         </script>
-    @endif
+    @endif --}}
 @endsection
