@@ -45,8 +45,9 @@
         class="bg-[var(--secondary-bg-color)] w-full md:w-16 flex justify-between md:flex-col items-center px-5 py-3 md:px-0 md:py-3 h-full md:h-screen transition-all duration-300 ease-in-out fade-in relative z-40">
         <!-- Logo -->
         <a href="/"
-            class="text-[var(--text-color)] p-3 w-10 h-10 flex items-center justify-center group cursor-normal relative">
-            <h1 class="font-bold text-2xl text-[var(--primary-color)] m-0">WF</h1>
+            class="text-[var(--text-color)] p-3 w-14 h-14 flex items-center justify-center group cursor-normal relative">
+            {{-- <h1 class="font-bold text-2xl text-[var(--primary-color)] m-0">WF</h1> --}}
+            <svg class="fill-[var(--primary-color)]" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.05 314.18"><ellipse cx="245.08" cy="56.61" rx="57.83" ry="56.61"/><path d="M310.31,164.52H261.23c-41.5,0-75.14,32.93-75.14,73.56v54.7a4.55,4.55,0,0,1-9.1,0V58.86c0-21.24-20.43-36.7-40.78-30.62C70.31,47.93,22.35,109.11,22.33,179.39c0,40.33,16.81,71.14,22.12,79.62C80,315.72,149.63,349.21,213.8,332c27.87-7.47,37.57-25,76-23.08a84,84,0,0,1,18.63,3.1c14.05,4,27.95-6.84,27.95-21.44v-100A26.07,26.07,0,0,0,310.31,164.52Z" transform="translate(-22.33 -22.34)"/></svg>
         </a>
 
         <!-- Mobile Menu Toggle Button -->
