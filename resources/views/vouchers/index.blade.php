@@ -114,7 +114,7 @@
                 id: item.id,
                 name: item.voucher_no,
                 details: {
-                    'Supplier': item.supplier ? item.supplier.supplier_name : app('company')->name,
+                    'Supplier': item.supplier ? item.supplier.supplier_name : '{{ app('company')->name }}',
                     'Date': formatDate(item.date),
                     'Amount': formatNumbersWithDigits(item.total_payment, 1, 1),
                 },
