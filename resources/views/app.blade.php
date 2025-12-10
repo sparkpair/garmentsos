@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="theme-color" content="#2563eb">
-    <meta name="description" content="GarmentsOS – Garments Business Management Solution">
+    <meta name="description" content="GarmentsOS PRO – Garments Business Management Solution">
     <link rel="manifest" href="/manifest.json">
     <title>@yield('title', app('company')->name)</title>
     <style>

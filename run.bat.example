@@ -1,6 +1,6 @@
 @echo off
 REM --- Change directory to your Laravel project ---
-cd /d "D:\garmentsos-pro"
+cd /d "project\directory\run.bat"
 
 REM --- Start Laravel server in background ---
 start /b npm run dev

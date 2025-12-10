@@ -196,7 +196,7 @@
                         <div id="preview-banner" class="preview-banner w-full flex justify-between items-center mt-8 pl-5 pr-8">
                             <div class="left">
                                 <div class="company-logo">
-                                    <img src="{{ asset('images/${companyData.logo}') }}" alt="garmentsos"
+                                    <img src="{{ asset('images/${companyData.logo}') }}" alt="garmentsos-pro"
                                         class="w-[12rem]" />
                                 </div>
                             </div>
