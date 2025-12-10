@@ -1,9 +1,0 @@
-@echo off
-REM --- Change directory to your Laravel project ---
-cd /d "project\directory\run.bat"
-
-REM --- Start Laravel server in background ---
-start /b npm run dev
-
-REM --- Start Laravel server in background ---
-start /b php artisan serve --port=5425
